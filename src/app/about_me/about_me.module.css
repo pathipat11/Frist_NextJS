@@ -1,0 +1,160 @@
+/* Container */
+.container {
+    padding: 30px;
+    margin: auto;
+    margin-top: calc(3.5vmin + 70px);
+    max-width: 1200px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.image {
+    max-width: 120px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Information Section */
+.information {
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Headings */
+.h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* About Section */
+.about ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about li {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #666;
+}
+
+/* Work Experience */
+.exp {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #444;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table th {
+    background: #f0f0f0;
+    font-weight: 600;
+}
+
+.table td {
+    background: #fafafa;
+}
+
+/* Calculator Section */
+.input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.input input {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+.input button {
+    width: 100%;
+    padding: 12px;
+    font-weight: 600;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.input button:hover {
+    background: #0056b3;
+}
+
+/* Contact Links */
+.cont {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.cont a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cont a.fb {
+    color: #4267B2;
+}
+
+.cont a.insta {
+    color: #E1306C;
+}
+
+.cont a.mail {
+    color: #d14836;
+}
+
+.cont a.kedin {
+    color: #0077b5;
+}
+
+.cont a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
